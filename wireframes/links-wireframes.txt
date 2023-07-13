@@ -1,0 +1,15 @@
+DESKTOP:
+
+Home Page: https://wireframe.cc/6gs2ja
+Lecciones (leccion 1): https://wireframe.cc/3gmSbk
+Contacto: https://wireframe.cc/SnEJTI
+Sobre nosotros: https://wireframe.cc/2O0XFp
+FAQ: https://wireframe.cc/qDh5dq
+-----------------------------------------------------------------------------
+MOBILE:
+
+Home Page: https://wireframe.cc/vlPc2w
+Lecciones (1): https://wireframe.cc/g8UHgw
+Contacto: https://wireframe.cc/S1rBqs
+Sobre nosotros: https://wireframe.cc/CUpNvz
+FAQ: https://wireframe.cc/Uf0ox7

@@ -1,0 +1,583 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+$main-font: "Poppins", sans-serif;
+$main-font-size: 10px;
+
+* {
+  font-family: $main-font;
+  font-size: $main-font-size;
+  box-sizing: border-box;
+  line-height: 1.5em;
+}
+
+main {
+  background: url(../imgs/fondo-main.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+  padding: 40px 60px;
+}
+  header {
+    padding: 40px 60px;
+  }
+
+  header nav div {
+    padding: 20px;
+    margin: 0;
+  }
+
+  header nav div a {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+
+  header .indice a {
+    color: #161731;
+  }
+    &:hover {
+      color: #50A6A3;
+      transition: 0.3s;
+    }
+
+    img {
+      width: 30px;
+      margin-right: 10px;
+    }
+  
+
+  section.main {
+    display: flex;
+    padding: 5em;
+    height: 70%;
+  }
+    img {
+      width: 50%;
+      border-radius: 10px;
+    }
+
+    .main-titulo {
+      font-size: 5em;
+      color: white;
+    }
+      span {
+        font-size: 1em;
+        color: #6a4cb1;
+      }
+    
+
+    .main-subtitulo {
+      font-style: italic;
+      font-size: 3em;
+      color: rgb(0, 0, 0);
+      font-weight: 400;
+    }
+
+    .titulo {
+      margin-bottom: 20px;
+    }
+
+    .main-text .contenedor-boton {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+      button {
+        border: none;
+        border-radius: 10px;
+        background-color: #240701;
+        padding: 30px;
+        margin-top: 20px;
+      }
+        &:hover {
+          background-color: #FFE4BC;
+          transition: 0.3s;
+        }
+
+        a {
+          color: white;
+          font-size: 2em;
+          text-decoration: none;
+
+          &:hover {
+            color: #240701;
+            transition: 0.3s;
+          }
+        }
+      
+    
+  
+
+  #section1 {
+    position: relative;
+    z-index: 2;
+    height: 110vh;
+    background: url(../imgs/fondodegrade.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+    .container p {
+      filter: none;
+      font-style: italic;
+      color: #ffffff;
+      text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+      font-size: 6em;
+      font-weight: 300;
+    }
+  
+
+  #section2 {
+    padding: 60px;
+    background: url(../imgs/degrade2.png);
+    background-size: cover;
+    position: center;
+  }
+    h2 {
+      color: white;
+      font-size: 3em;
+    }
+
+    .contenedor-cartas {
+      justify-content: center;
+      align-items: center;
+    }
+      .card {
+        margin: 40px;
+      }
+        .card-body {
+          background-color: #507EA6;
+          border: none;
+        }
+          .card-text {
+            font-size: 2em;
+            text-align: center;
+            color: black;
+          }
+        
+      
+    
+  
+
+  #call-to-action {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+  }
+    .contenedor {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 30px;
+      margin-left: 20px;
+      height: 60%;
+      width: 75%;
+      background-color: #00595C;
+    }
+      .call-text {
+        width: 50%;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+        p {
+          font-size: 2em;
+        }
+      
+
+      a button {
+        border: none;
+        border-radius: 10px;
+        background-color: #240701;
+        margin-left: 20px;
+        padding: 30px;
+        color: white;
+        font-size: 2em;
+        margin-top: 20px;
+      }
+        &:hover {
+          background-color: #FFE4BC;
+          color: black;
+          transition: 0.3s;
+        }
+      
+    
+  
+
+  &.leccion {
+    background: url(../imgs/fondoPages.png);
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    padding: 40px 60px;
+  }
+    .main.leccion h4 {
+        font-size: 3em;
+        color: #000000;
+        line-height: 1em;
+      }
+
+      h3 {
+        font-size: 2em;
+        line-height: 2em;
+      }
+
+      p {
+        font-size: 2em;
+        line-height: 2em;
+      }
+
+      section.main.leccion .text-leccion {
+        margin: 70px 0;
+      }
+
+      section.main .container .row {
+        position: relative;     
+      }
+
+      section.main .container .row .col .card {
+        border: none;
+      }
+    
+  
+  section.juego {
+    position: relative;
+    z-index: 2;
+    background: url(../imgs/fondodegrade.png);
+    background-size: cover;
+    padding: 40px 60px;
+  }
+    p {
+      font-size: 2.5em;
+      margin-bottom: 100px;
+      border-bottom: 10px solid black;
+      line-height: 2em;
+      color: rgb(233, 227, 227);
+    }
+
+    h3 {
+      font-size: 3em;
+      margin: 60px 0;
+      color: white;
+    }
+
+    ul {
+      border-radius: 20px;
+      background-color: #5382ad;
+      padding: 50px;
+    }
+      li {
+        list-style: none;
+        font-size: 2em;
+        color: white;
+        line-height: 2em;
+      }
+        .estrategia-titulo {
+          font-size: 2em;
+          color: black;
+          margin: 20px 0;
+        }
+    
+        &.separador-estrategia {
+          margin: 100px;
+        }
+    
+        .estrategia-explicacion {
+          color: rgb(11, 6, 39);
+          font-size: 1.5em;
+          margin-top: 30px;
+          font-weight: 500;
+        }
+    
+        strong {
+          font-size: 1.5em;
+          color: #063a1f;
+        }
+        
+    
+    
+    section.final {
+      p {
+        font-size: 4.5em;
+        text-align: center;
+        font-style: italic;
+        font-weight: 300;
+        padding: 300px 40px;
+      }
+    }
+    
+    footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #7EA650;
+      padding: 20px;
+    
+      p {
+        font-size: 3em;
+      }
+    
+      img {
+        width: 30px;
+      }
+    
+      .icons {
+        i {
+          font-size: 3em;
+          margin-left: 10px;
+    
+          &:first-child {
+            margin-left: 30px;
+          }
+        }
+      }
+    }
+    
+    @media screen and (max-width: 768px) {
+      header {
+        padding: 0;
+      }
+    
+      section.main {
+        padding: 0;
+        margin: 0;
+      }
+    
+      section.main .main-titulo {
+        font-size: 3em;
+      }
+    
+      section.main .main-subtitulo {
+        font-size: 1.5em;
+      }
+    
+      section.main {
+        display: flex;
+        flex-direction: column;
+        overflow: visible;
+        gap: 20px;
+        font-size: 0.01em;
+      }
+    
+      #section1 .container p.display-3 {
+        font-size: 3em;
+      }
+    
+      #call-to-action .contenedor {
+        flex-direction: column;
+        width: 70%;
+        height: fit-content;
+        padding: 20px;
+      }
+    
+      #call-to-action .contenedor p {
+        margin: 0;
+        width: 100%;
+      }
+    
+      section.main.leccion h4 {
+        display: block;
+      }
+    
+      section.final p {
+        font-size: 3em;
+      }
+    }
+    
+    @media screen and (max-width: 1024px) {
+      main {
+        height: auto;
+        padding: 0;
+        background-size: cover;
+        margin: 0;
+      }
+    
+      main .main {
+        padding: 0;
+        margin: 0;
+      }
+    }
+    
+    @media screen and (max-width: 1358px) {
+      main {
+        padding-bottom: 20px;
+      }
+    
+      section.main {
+        margin: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      section.main .main-titulo {
+        font-size: 3em;
+      }
+    
+      section.main .main-subtitulo {
+        font-size: 2em;
+        color: white;
+      }
+    
+      section.main {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+      }
+    
+      #section1 .container p.display-3 {
+        font-size: 3em;
+      }
+    
+      #call-to-action .contenedor {
+        flex-direction: column;
+        width: 70%;
+        height: fit-content;
+        padding: 20px;
+      }
+    
+      #call-to-action .contenedor p {
+        margin: 0;
+        width: 100%;
+      }
+    }
+    
+    @media screen and (max-width: 425px) {
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+      }
+    
+      main.leccion {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+      }
+    
+      main header {
+        padding: 0;
+      }
+    
+      main section.main {
+        padding: 0;
+        margin: 0;
+      }
+    
+      main section.main .main-text {
+        font-size: 1em;
+        padding-top: 40px;
+      }
+    
+      main.leccion {
+        width: 100%;
+      }
+    
+      #section2 .container {
+        height: 280vh;
+      }
+    
+      #call-to-action {
+        margin-top: 0;
+        height: 150vh;
+      }
+    
+      #call-to-action .contenedor {
+        background: none;
+        width: 100%;
+      }
+    
+      #call-to-action .contenedor .call-text {
+        width: 100%;
+      }
+    }
+    
+    @media screen and (max-width: 320px) {
+      main {
+        padding: 0 0 20px 0;
+        margin: 0;
+      }
+    
+      main section.main {
+        padding: 10px;
+        margin: 10px;
+      }
+    
+      main section.main .main-text {
+        padding-top: 0;
+      }
+    
+      main section.main img {
+        width: 80%;
+      }
+    
+      section.main .main-titulo {
+        font-size: 2em;
+      }
+    
+      section.main .main-subtitulo {
+        font-size: 1.5em;
+      }
+    
+      section.main {
+        display: flex;
+        flex-direction: column;
+        overflow: visible;
+        gap: 20px;
+        font-size: 0.01em;
+      }
+    
+      #section1 .container p {
+        font-size: 3em;
+      }
+    
+      #section2 .contenedor-cartas {
+        height: 280vh;
+      }
+    
+      #section2 .contenedor-cartas .col .card {
+        width: 100%;
+        margin: 20px 0;
+      }
+    
+      #call-to-action {
+        height: 150vh;
+      }
+    
+      #call-to-action .contenedor {
+        flex-direction: column;
+        background: none;
+        width: 300px;
+        height: fit-content;
+        padding: 20px;
+      }
+    
+     
+      #call-to-action .contenedor p {
+        font-size: 0.5em;
+        width: 100%;
+      }
+    
+      footer .icons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        i {
+          font-size: 3em;
+          margin-left: 10px;
+    
+          &:first-child {
+            margin-left: 30px;
+          }
+        }
+      }
+    }
+        
